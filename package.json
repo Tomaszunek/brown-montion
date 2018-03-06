@@ -1,0 +1,24 @@
+{
+  "name": "makewaves",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomaszunek/brown-montion.git"
+  },
+  "author": "Tomasz Pawłowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomaszunek/brown-montion/issues"
+  },
+  "homepage": "https://github.com/Tomaszunek/brown-montion#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
