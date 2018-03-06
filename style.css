@@ -1,0 +1,46 @@
+body{
+  margin: 0px;
+  color: white;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 10fr 2fr;
+}
+
+.canvasCont{
+  padding: 2px;
+  background-color: #333333;
+  border: 2px solid #ce84c3;
+  position: relative;
+  width: 1692px;
+  height: 981px;
+  float: left;
+}
+.leftPanel{
+  float: left;
+  padding: 2px;
+  background-color: #333333;
+  width: 210px;
+  height: 981px;
+  border: 2px solid #ce84c3;
+  border-left: 0px solid #ce84c3;
+}
+canvas { position: absolute; }
+
+label{
+  color: white;
+}
+
+#canvas{
+  z-index: 1;
+  background-color: transparent;
+}
+#canvas2{
+  z-index: 2;
+  background-color: transparent;
+}
+#canvas3{
+  z-index: 3;
+  background-color: transparent;
+}
