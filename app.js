@@ -9,10 +9,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-
 app.use(express.static(path.join(__dirname, '/')));
 
-
-
-
-app.listen(3000);
+let port = process.env.PORT || 8080;
+app.listen(port);
